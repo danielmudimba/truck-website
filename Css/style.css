@@ -1,38 +1,41 @@
-*{
-margin: 0;
-padding: 0;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
 /* this is my header style  */
 
-   /* this is my heading section styles   */
+/* this is my heading section styles   */
 header {
     display: flex;
     text-align: left;
- position: absolute;
+    position: absolute;
 
 
-   
-   
+
+
 }
 
-header nav{
-     display: flex;
-}
-header .ham-menu{
-height: 50px;
-width: 50px;
-left: 15%;
-position: relative;
-top: 100%;
+header nav {
+    display: flex;
 }
 
-header .ham-menu h5{
+header .ham-menu {
+    height: 50px;
+    width: 50px;
+  
+    left: 15%;
+    position: relative;
     top: 100%;
 }
 
-header .ham-menu span{
+header .ham-menu h5 {
+    top: 100%;
+}
+
+header .ham-menu span {
     height: 2px;
     width: 100%;
     background-color: white;
@@ -45,19 +48,21 @@ header .ham-menu span{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header .ham-menu span:nth-last-child(1){
+header .ham-menu span:nth-last-child(1) {
     top: 25%;
 }
 
-header .ham-menu span:nth-last-child(3){
+header .ham-menu span:nth-last-child(3) {
     top: 75%;
 }
 
-header .ham-menu.active span:nth-last-child(1){
+header .ham-menu.active span:nth-last-child(1) {
     top: 50%;
-    transform: translate(-50%, -50%); rotate:(-45deg);
+    transform: translate(-50%, -50%);
+    rotate: (-45deg);
 
-    }
+}
+
 /* / off the screen  */
 header .off-screen-menu {
     background-color: #000000;
@@ -76,25 +81,27 @@ header .off-screen-menu {
     color: #fff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header .off-screen-menu.active{
+
+header .off-screen-menu.active {
     left: 0;
 }
-header .header-inner{
-display: flex;
-justify-content: space-between;
-color: #fff;
 
-gap: 100%;
+header .header-inner {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    gap: 100%;
 }
 
 
-header .header-inner .image img{
-   
-width: 100px;
+header .header-inner .image img {
+
+    width: 100px;
 
 }
 
-header .header-inner h5{
+header .header-inner h5 {
     padding-left: 15%;
 }
 
@@ -108,11 +115,11 @@ header .header-inner h5{
     height: 100vh;
     width: 100%;
     background-image: url(../images/Rectangle\ 1.png);
-background-position: center center;
-background-size: cover;
+    background-position: center center;
+    background-size: cover;
 
-align-items: center;
-color: #fff;
+    align-items: center;
+    color: #fff;
 
 }
 
@@ -126,16 +133,17 @@ color: #fff;
 
 }
 
-#hero .heroinner .heroleft h1{
-padding-left: 5%;
+#hero .heroinner .heroleft h1 {
+    padding-left: 5%;
 }
 
-#hero .heroinner .heroright a{
+#hero .heroinner .heroright a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
- 
+
 }
+
 /* my hero section style ends here  */
 
 /* this is my third section  */
@@ -143,52 +151,55 @@ padding-left: 5%;
 #third .thirdinner {
     justify-content: space-between;
 }
+
 #third .headings {
     text-align: center;
 
 }
 
-#third .thirdinner .headings h4{
-font-size: 200%;
-font-weight: 800;
+#third .thirdinner .headings h4 {
+    font-size: 200%;
+    font-weight: 800;
 
 }
+
 #third .image img {
     height: 25vh;
-   
+
 }
 
 
-  
-  
-  
-  #third .thirdinner h4 {
-  font-weight: 700;
-  font-size: 100%;
-  padding-left: 5px;
-  padding-top: 85px;
-  padding-bottom: 10px;
-  }
-  #third .thirdinner p{
-  font-weight: 400;
-  padding-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  font-size: 80%;
-  }
- 
-  #third .thirdlink a{
-      text-decoration: none;
-      color: black;
-      font-weight: 700;
-      font-size: 100%; 
-      padding-left: 1px; 
-      padding-top: 300px; 
-  
-  }
 
-  
-  #fourth .fourthinner .headings h2 {
+
+
+#third .thirdinner h4 {
+    font-weight: 700;
+    font-size: 100%;
+    padding-left: 5px;
+    padding-top: 85px;
+    padding-bottom: 10px;
+}
+
+#third .thirdinner p {
+    font-weight: 400;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 80%;
+}
+
+#third .thirdlink a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 100%;
+    padding-left: 1px;
+    padding-top: 300px;
+
+}
+
+
+#fourth .fourthinner .headings h2 {
     text-align: center;
     font-weight: 800;
     padding-top: 20%;
@@ -220,21 +231,23 @@ font-weight: 800;
 #fifth {
     background-position: center center;
     background-size: cover;
-  height: 40vh;
-  width: 100%;  
-background-image: url(../images/Rectangle\ 7.png);
+    height: 40vh;
+    width: 100%;
+    background-image: url(../images/Rectangle\ 7.png);
 }
 
 #sixth .sixthinner .texts {
     gap: 0%;
 }
-#sixth .sixthinner .heading h2{
+
+#sixth .sixthinner .heading h2 {
     font-weight: 800;
     text-align: center;
     padding-top: 15%;
     font-size: 200%;
     gap: 0%;
 }
+
 #sixth .texts {
     display: flex;
     overflow-x: auto;
@@ -243,35 +256,35 @@ background-image: url(../images/Rectangle\ 7.png);
 
 }
 
-#sixth .left-text{
+#sixth .left-text {
     flex: 0 0 100%;
     scroll-snap-type: center;
 
 }
 
-#sixth .right-text{
+#sixth .right-text {
     flex: 0 0 100%;
     scroll-snap-type: center;
 
 }
 
 
-  
-#seventh .seventhinner .link{
-text-align: center;
-padding-top: 10%;
-padding-bottom: 10%;
-   
+
+#seventh .seventhinner .link {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
 }
 
-#seventh .seventhinner .link a{
-  
+#seventh .seventhinner .link a {
+
     text-decoration: none;
     color: black;
     font-weight: 800;
 }
 
-#seventh .seventhinner .headings h2{
+#seventh .seventhinner .headings h2 {
     font-weight: 800;
     padding-top: 10%;
 }
@@ -294,8 +307,8 @@ padding-bottom: 10%;
 
     background-color: whitesmoke;
     height: 7vh;
-   border: none;
-   text-align: center;
+    border: none;
+    text-align: center;
 
 
 }
@@ -305,14 +318,14 @@ padding-bottom: 10%;
     border: none;
     padding-left: 5%;
     padding-right: 5%;
-    text-align: center; 
+    text-align: center;
 }
 
 #seventh .seventhinner .forms .email input {
     background-color: whitesmoke;
     height: 7vh;
-   border: none;
-   text-align: center;
+    border: none;
+    text-align: center;
 
 }
 
@@ -325,11 +338,11 @@ padding-bottom: 10%;
 
 }
 
-#seventh .seventhinner .forms .message input{
+#seventh .seventhinner .forms .message input {
     background-color: whitesmoke;
     height: 7vh;
-   border: none;
-   text-align: center;
+    border: none;
+    text-align: center;
 
 
 }
@@ -339,12 +352,12 @@ padding-bottom: 10%;
 
 
 footer .footerinner {
-text-align: center;
-color: #fff;
-background-color: #000;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
 }
 
-footer .footerinner .logo img{
+footer .footerinner .logo img {
     width: 100%;
     height: 10vh;
     padding-top: 5%;
@@ -352,334 +365,365 @@ footer .footerinner .logo img{
 
 
 @media(min-width:1200px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        
-        }
-        /* this is my header style  */
-        
-           /* this is my heading section styles   */
-        header {
-            display: flex;
-            text-align: left;
-         position: absolute;
-        
-        
-           
-           
-        }
-        
-        header nav{
-             display: flex;
-        }
-        header .ham-menu{
+
+    }
+
+    /* this is my header style  */
+
+    /* this is my heading section styles   */
+    header {
+        display: flex;
+        text-align: left;
+        position: absolute;
+
+
+
+
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header .ham-menu {
         height: 50px;
         width: 50px;
         left: 15%;
         position: relative;
         top: 100%;
-        }
-        
-        header .ham-menu h5{
-            top: 100%;
-        }
-        
-        header .ham-menu span{
-            height: 2px;
-            width: 100%;
-            background-color: white;
-            border-radius: 25%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            transition: .3s ease;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        
-        header .ham-menu span:nth-last-child(1){
-            top: 25%;
-        }
-        
-        header .ham-menu span:nth-last-child(3){
-            top: 75%;
-        }
-        
-        header .ham-menu.active span:nth-last-child(1){
-            top: 50%;
-            transform: translate(-50%, -50%); rotate:(-45deg);
-        
-            }
-        /* / off the screen  */
-        header .off-screen-menu {
-            background-color: #000000;
-            height: 100vh;
-            width: 100%;
-            max-width: 450px;
-            position: fixed;
-            top: 0;
-            right: -450px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            font-size: xx-large;
-            font-weight: 600;
-            transition: 3s ease;
-            color: #fff;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        header .off-screen-menu.active{
-            left: 0;
-        }
-        header .header-inner{
+    }
+
+    header .ham-menu h5 {
+        top: 100%;
+    }
+
+    header .ham-menu span {
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        border-radius: 25%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .3s ease;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    header .ham-menu span:nth-last-child(1) {
+        top: 25%;
+    }
+
+    header .ham-menu span:nth-last-child(3) {
+        top: 75%;
+    }
+
+    header .ham-menu.active span:nth-last-child(1) {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        rotate: (-45deg);
+
+    }
+
+    /* / off the screen  */
+    header .off-screen-menu {
+        background-color: #000000;
+        height: 100vh;
+        width: 100%;
+        max-width: 450px;
+        position: fixed;
+        top: 0;
+        right: -450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: xx-large;
+        font-weight: 600;
+        transition: 3s ease;
+        color: #fff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    header .off-screen-menu.active {
+        left: 0;
+    }
+
+    header .header-inner {
         display: flex;
         justify-content: space-between;
         color: #fff;
-        
+
         gap: 100%;
-        }
+    }
+
+
+    header .header-inner .image  {
+
+        padding-left: 750%;
         
-        
-        header .header-inner .image img{
-           
-        width: 100px;
-        
-        }
-        
-        header .header-inner h5{
-            padding-left: 15%;
-        }
-        
-        
-        
-        
-        /* my header style ends here  */
-        
-        /* this is my hero section style  */
-        #hero {
-            height: 100vh;
-            width: 100%;
-            background-image: url(../images/Rectangle\ 1.png);
+
+    }
+
+ 
+
+    header .header-inner h5 {
+        padding-left: 15%;
+    }
+
+
+
+
+    /* my header style ends here  */
+
+    /* this is my hero section style  */
+    #hero {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/Rectangle\ 1.png);
         background-position: center center;
         background-size: cover;
-        
+
         align-items: center;
         color: #fff;
-        
-        }
-        
-        #hero .heroinner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 35%;
-            gap: 19%;
-            padding-left: 2%;
-        
-        }
-        
-        #hero .heroinner .heroleft h1{
+
+    }
+
+    #hero .heroinner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 35%;
+        gap: 19%;
+        padding-left: 2%;
+        padding-right: 2%;
+
+    }
+
+    #hero .heroinner .heroleft h1 {
         padding-left: 5%;
         font-weight: 800;
         padding-bottom: 10%;
-        
-        }
-        
-        #hero .heroinner .heroright a{
-            text-decoration: none;
-            color: #fff;
-            font-weight: 800;
-            padding-top: 15%;
-            font-size: 150%;
-         
-        }
-        /* my hero section style ends here  */
-        
-        /* this is my third section  */
-        
-        #third .thirdinner {
-            display: flex;
-            justify-content: space-between;
-        }
-        #third .thirdinner .headings {
-            text-align: left;
-        
-        }
-        
-        #third .thirdinner .headings h4{
+
+    }
+
+    #hero .heroinner .heroright a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 800;
+        padding-top: 15%;
+        font-size: 150%;
+       
+
+    }
+
+    /* my hero section style ends here  */
+
+    /* this is my third section  */
+
+    #third .thirdinner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #third .thirdinner .headings {
+        text-align: left;
+
+    }
+
+    #third .thirdinner .headings h4 {
         font-size: 200%;
         font-weight: 800;
-        
-        }
-        #third .image img {
-            height: 25vh;
-           
-        }
-        
-        
-          
-          
-          
-          #third .thirdinner h4 {
-          font-weight: 700;
-          font-size: 100%;
-          padding-left: 5px;
-          padding-top: 85px;
-          padding-bottom: 10px;
-          }
-          #third .thirdinner p{
-          font-weight: 400;
-          padding-left: 5px;
-          padding-top: 2px;
-          padding-bottom: 2px;
-          font-size: 80%;
-          }
-         
-          #third .thirdlink a{
-              text-decoration: none;
-              color: black;
-              font-weight: 700;
-              font-size: 100%; 
-              padding-left: 1px; 
-              padding-top: 300px; 
-          
-          }
-        
-          
-          #fourth .fourthinner .headings h2 {
-            text-align: center;
-            font-weight: 800;
-            padding-top: 20%;
-            font-size: 200%;
-        }
-        
-        
-        #fourth .image-gallery {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            text-align: center;
-            padding-bottom: 15%;
-        
-        }
-        
-        #fourth .image-gallery .image-container {
-            flex: 0 0 100%;
-            scroll-snap-type: center;
-        
-        }
-        
-        #fourth .image-gallery .image-container img {
-            width: 80%;
-            height: auto;
-        }
-        
-        
-        #fifth {
-            background-position: center center;
-            background-size: cover;
-          height: 40vh;
-          width: 100%;  
+
+    }
+
+    #third .image img {
+        height: 25vh;
+
+    }
+
+
+
+
+
+    #third .thirdinner h4 {
+        font-weight: 700;
+        font-size: 100%;
+        padding-left: 5px;
+        padding-top: 85px;
+        padding-bottom: 10px;
+    }
+
+    #third .thirdinner p {
+        font-weight: 400;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 80%;
+    }
+
+    #third .thirdlink a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 100%;
+        padding-left: 1px;
+        padding-top: 300px;
+
+    }
+
+    #fourth {
+        background: whitesmoke;
+
+    }
+
+    #fourth .fourthinner .headings h2 {
+        text-align: center;
+        font-weight: 800;
+        padding-top: 10%;
+        font-size: 200%;
+        padding-bottom: 5%;
+        font-size: 300%;
+    }
+
+
+    #fourth .image-gallery {
+        display: flex;
+
+    }
+
+
+    #fourth .image-gallery .image-container img {
+        width: 30%;
+        height: 60vh;
+
+    }
+
+
+    #fifth {
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
         background-image: url(../images/Rectangle\ 7.png);
-        }
-        
-        #sixth .sixthinner .texts {
-            gap: 0%;
-        }
-        #sixth .sixthinner .heading h2{
-            font-weight: 800;
-            text-align: center;
-            padding-top: 15%;
-            font-size: 200%;
-            gap: 0%;
-        }
-        #sixth .texts {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-            text-align: center;
-        
-        }
-        
-        #sixth .left-text{
-            flex: 0 0 100%;
-            scroll-snap-type: center;
-        
-        }
-        
-        #sixth .right-text{
-            flex: 0 0 100%;
-            scroll-snap-type: center;
-        
-        }
-        
-        
-          
-        #seventh .seventhinner .link{
+    }
+
+    #sixth .sixthinner .texts {
+        gap: 0%;
+    }
+
+    #sixth .sixthinner .heading h2 {
+        font-weight: 800;
+        text-align: center;
+        padding-top: 15%;
+        font-size: 300%;
+        gap: 0%;
+    }
+
+
+    /* this is my seventh section style  */
+
+    #seventh .seventhinner .link {
         text-align: center;
         padding-top: 10%;
         padding-bottom: 10%;
-           
-        }
-        
-        #seventh .seventhinner .link a{
-          
-            text-decoration: none;
-            color: black;
-            font-weight: 800;
-        }
-        
-        #seventh .seventhinner .headings h2{
-            font-weight: 800;
-            padding-top: 10%;
-        }
-        
-        
-        #seventh .seventhinner .headings {
-            text-align: center;
-        }
-        #seventh .seventhinner .forms .name-email .email input{
-            text-align: center;
-           
-           
-        }
-        
-        #seventh .seventhinner .forms .name-email input{
-            background-color: whitesmoke;
-            height: 15vh;
-           border: none;
-           text-align: center;
-        }
-        #seventh .seventhinner .forms .message {
-        
-            text-align: center;
-            padding-top: 3%;
-        
-        }
-        #seventh .seventhinner .forms .message input{
-            background-color: whitesmoke;
-            height: 15vh;
-           border: none;
-           text-align: center;
-        
-        }
-        
-        
-        
-        footer .footerinner {
+
+    }
+
+    #seventh .seventhinner .link a {
+
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+    }
+
+    #seventh .seventhinner .headings h2 {
+        font-weight: 800;
+        padding-top: 10%;
+    }
+
+
+    #seventh .seventhinner .headings {
+        text-align: center;
+    }
+
+    #seventh .seventhinner .forms {
+        display: flex;
+
+        align-items: center;
+        gap: 5%;
+        padding-left: 25%;
+
+    }
+
+    #seventh .seventhinner .forms .name {}
+
+    #seventh .seventhinner .forms .name input {}
+
+    #seventh .seventhinner .forms input {
+        background-color: white;
+        height: 15vh;
+        border: none;
+        text-align: center;
+
+    }
+
+    #seventh .seventhinner .forms .message {
+
+        text-align: center;
+        padding-top: 3%;
+
+    }
+
+    #seventh .seventhinner .forms .message input {
+        background-color: whitesmoke;
+        height: 15vh;
+        border: none;
+        text-align: center;
+
+    }
+
+    /* my seventh section style ends here  */
+
+
+    /* this is my footer section  */
+    footer .footerinner {
         text-align: center;
         color: #fff;
         background-color: #000;
-        }
-        
-        footer .footerinner .logo img{
-            width: 100%;
-            height: 10vh;
-            padding-top: 5%;
-        }
-        
 
+    }
+
+    footer .footerinner .logo img {
+        width: 23%;
+        height: 20vh;
+        padding-top: 5%;
+    }
+
+
+
+    footer .footerinner .paragraphs {
+        display: flex;
+        justify-content: space-between;
+
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 10%;
+        padding-bottom: 3%;
+
+
+    }
+
+    footer .footerinner .paragraphs .cards h1 {
+        font-size: 150%;
+
+
+
+    }
+
+    /* my footer section ends here  */
 
 }
